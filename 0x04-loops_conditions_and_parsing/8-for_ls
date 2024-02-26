@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# displays:
+#The content of the current directory
+#In a list format
+#Where only the part of the name after the first dash is displayed
+#8-for_ls
+
+for filename in *; do
+    echo "$filename" | cut -f2 -d '-'; done
