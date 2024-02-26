@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#Displays "Best School" 10 times, on tihe 9th times
+#display Best School and "Hi" on a new line.
+#4-if_9_say_hi
+
+counter=1
+
+while ((counter <= 10)); do
+	echo Best School
+	if ((counter == 9));
+	then
+		echo Hi
+	fi
+	((counter++));
+done
