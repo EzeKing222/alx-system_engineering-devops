@@ -11,16 +11,16 @@
 
 t_file=school
 
-if [ -e "$t_file" ]
+if test -e "$t_file";
 then
 	echo school file exist
-	if [ -s "$t_file" ]
+	if test -s "$t_file";
 	then
 		echo $t_file file is not empty
 	else
 		echo $t_file file is empty
 	fi
-	if [ -f "$t_file" ]
+	if test -f "$t_file";
 	then
 		echo $t_file is a regular file
 	fi
