@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Using "kill" to terminate a programme
+
+kill SIGTERM -1
