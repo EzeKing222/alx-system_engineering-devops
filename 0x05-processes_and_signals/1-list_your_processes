@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#displays a list of currently running processes.
+#1-list_your_processes
+
+ps -au
